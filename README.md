@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # CS61C Assignments Repository
 
 *English | [中文](#中文说明)*
@@ -95,3 +96,7 @@ You can fork this repository to create your own working environment, track your 
 ### 免责声明
 - 本仓库为 **非官方** 项目，与 UC Berkeley 及 CS61C 教学团队无关。
 - 所有课程内容版权归 UC Berkeley CS61C 团队所有，仅供 **个人学习和练习** 使用，请遵守学术诚信规定。
+=======
+# HCl-CS61C-Assignment
+HCl CS61C-Assignment
+>>>>>>> 338166e4000f784b3ed00af336a064a654290fde
