@@ -1,0 +1,26 @@
+1.While you’re in a gdb session, how do you set the arguments that will be passed to the program when it’s run?
+(gdb) set args arg1 arg2
+(gdb) run
+OR
+gdb --args ./myapp arg1 arg2
+2.How do you create a breakpoint?
+(gdb)break main(FunctionName)
+3.How do you execute the next line of C code in the program after stopping at a breakpoint?
+(gdb) next
+4.If the next line of code is a function call, you’ll execute the whole function call at once if you use your answer to #3. (If not, consider a different command for #3!) How do you tell GDB that you want to debug the code inside the function (i.e. step into the function) instead? (If you changed your answer to #3, then that answer is most likely now applicable here.)
+(gdb) step
+5.How do you continue the program after stopping at a breakpoint?
+(gdb) continue
+6.How can you print the value of a variable (or even an expression like 1+2) in gdb?
+(gdb) display value
+OR
+(gdb) print value
+7.How do you configure gdb so it displays the value of a variable after every step?
+(gdb) display value
+info display:display all lists of your have display.
+undisplay:Unfollow
+8.How do you show a list of all variables and their values in the current function?
+(gdb) info args (defualt is 1. the address is about the name of files.
+(gdb) info locals
+9.How do you quit out of gdb?
+(gdb) quit
