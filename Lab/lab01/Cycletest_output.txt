@@ -1,0 +1,6 @@
+Checking first list for cycles. There should be none, ll_has_cycle says it has no cycle
+Checking second list for cycles. There should be a cycle, ll_has_cycle says it has a cycle
+Checking third list for cycles. There should be a cycle, ll_has_cycle says it has a cycle
+Checking fourth list for cycles. There should be a cycle, ll_has_cycle says it has a cycle
+Checking fifth list for cycles. There should be none, ll_has_cycle says it has no cycle
+Checking length-zero list for cycles. There should be none, ll_has_cycle says it has no cycle
